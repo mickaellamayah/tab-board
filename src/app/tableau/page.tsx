@@ -104,12 +104,12 @@ useEffect(() => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4">
       <div className="w-full max-w-4xl bg-black rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-800">
         <div className="p-8 relative">
-          <div className="text-gray-200 text-2xl mb-2 text-center font-bold" style={{letterSpacing:"2px"}} >
+          <div className="text-gray-200 text-2xl mb-2 text-center font-bold" style={{letterSpacing:"3px"}} >
             TABLEAU DE BORD
           </div>
           
           <div className="flex flex-col items-center  p-2 rounded-lg border shadow-lg">
-              <div className="w-2x h-1x bg-black rounded-md flex flex-row items-center justify-between py-1 px-3 gap-5 space-x-4 bg-gray-950 border-zinc-500">
+              <div className="w-2x h-1x bg-black rounded-4xl flex flex-row items-center justify-between py-2 px-4 gap-5 space-x-4 bg-gray-950 border-zinc-500">
                 <div
                   className={`w-10 h-10 rounded-full ${isDescelering ? "bg-red-500 shadow-md shadow-red-500/50" : "bg-red-900"}`}
                 ></div>
